@@ -1,0 +1,25 @@
+{
+    "chromeWebSecurity": false,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "env":{
+        "url": "https://www.bajajfinservhealth.in/",
+        "browserPermissions": {
+                "geolocation": "allow"
+    }
+},
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "defaultCommandTimeout":26000,
+    "pageLoadTimeout":100000,
+    "numTestsKeptInMemory":0,
+    "reporter": "mochawesome",
+    "reporterOptions": 
+    {
+      "reportDir":"reports",
+      "reportFilename":"report",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+   
+}
